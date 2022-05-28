@@ -16,14 +16,14 @@ Cause I am learning it! I am getting php training sessions at my college.
 - You should have installed and enabled php and mysql servers or just install xampp/lampp and start it.
 
 ### Configuration
-- Database configuration is done in [config.php](https://www/github.com/whoisYoges/ldo/blob/master/assets/pages/config.php).
+- Database configuration is done in [config.php](https://www.github.com/whoisYoges/ldo/blob/master/assets/pages/config.php).
 - Two tables `todos` and `users` should be created.
     - Columns in `users` table are `id (primary_key + auto_increament)`, `email`, `password`, `name`, and `image`.
     - Columns in `todos` are `id (primary_key + auto increament)`, `title`, `description`, and `user_id`.
     - `id` of `users` table and  `use_id` of `todos` table should be same and interconnected so, join them using foreign key. 
 
 Practically,
-1. Create a database (give any name) and then configure it accordingly in [config.php](https://www/github.com/whoisYoges/ldo/blob/master/assets/pages/config.php).
+1. Create a database (give any name) and then configure it accordingly in [config.php](https://www.github.com/whoisYoges/ldo/blob/master/assets/pages/config.php).
 
 2. Create a table `users` in database.
 ```
@@ -48,7 +48,9 @@ CREATE TABLE `todos` (
     FOREIGN KEY(`user_id`) REFERENCES users(`id`)
 );
 ```
+
 The table should look like following:
+
 ![Database_Structure_Defined](/.helper/database_structure.png)
 
 ### Keep in mind
