@@ -1,0 +1,155 @@
+@font-face { font-family: WallNotes; src: url('../fonts/Wall\ Notes\ 400.otf'); }
+@font-face { font-family: wvmd; src: url('../fonts/iosevka-regular.ttf'); }
+@font-face { font-family: bebas; src: url('../fonts/Mokoto\ Glitch\ Mark\ 2.ttf'); }
+@font-face { font-family: logout; src: url('../fonts/Wolves\ Vs\ Monster.otf'); }
+
+body{
+    background-color: #282828;
+    color: #EBDBB2;
+    font-size: 14pt;
+    font-family: wvmd, monospace;
+}
+
+div{
+    width: auto;
+    max-width: 100%;
+    height: 100%;
+}
+
+.main{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 3%;
+}
+
+a{
+    text-decoration: none;
+    color: #FABD2F;
+}
+
+a:hover, a:active, .logout a:hover{
+    color: #c49de9;
+}
+.wvmd{
+    text-align: left;
+    color: #b2ebc3;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+hr{
+    color: #c4ebb2;
+}
+.title{
+    font-family: WallNotes, monospace;
+    color: lightblue;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-size: 33pt;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.username{
+    color: gold;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px rgb(177, 177, 236);
+    font-family: bebas, monospace;
+    font-size: 30pt;
+}
+
+.logout{
+    text-align: right;
+    font-size: 12pt;
+    font-family: logout;
+    display: block;
+}
+.logout a{
+    color: magenta;
+    text-shadow: 2px 2px 5px green;
+}
+
+.addtodotitle{
+    text-decoration: underline bisque;
+    font-weight: bold;
+    color: greenyellow;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    padding-top: 0;
+    margin-top: 0;
+    margin: auto;
+}
+form p{
+    padding: 1%;
+}
+
+.addtodobtn{
+    height: fit-content;
+    padding: 3px;
+}
+
+.green-color {
+    color:green;
+}
+.red-color {
+    color: red;
+}
+.eachtodo{
+    background-color: #303030;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.todotitle{
+    margin-bottom: 0;
+    color: darkkhaki;
+}
+.eachtododesc{
+    display: flex;
+    flex-direction: row;
+}
+.todobtn a{
+    color: transparent;
+}
+
+.todobtn{
+    display: flex;
+    flex-direction: row;
+}
+
+.eachtododesc p{
+    padding-right: 20px;
+    color: grey;
+}
+textarea{
+    width: 95%;
+    height: auto;
+}
+.addtodotitlename{
+    width: 95%;
+}
+@media only screen and (max-width: 798px) {
+    .main{
+        padding: 2%;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .main{
+        padding: 0;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .main{
+        padding: 0;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 350px) {
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+}

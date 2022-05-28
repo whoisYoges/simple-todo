@@ -1,0 +1,109 @@
+@font-face { font-family: WallNotes; src: url('../fonts/Wall\ Notes\ 400.otf'); }
+@font-face { font-family: wvmd; src: url('../fonts/iosevka-regular.ttf'); }
+
+body{
+    background-color: #282828;
+    color: #EBDBB2;
+    font-size: 14pt;
+    font-family: wvmd, monospace;
+
+}
+
+div{
+    width: auto;
+    max-width: 100%;
+    height: 100%;
+}
+
+.main{
+    margin-left: 17%;
+    margin-right: 17%;
+    padding: 3%;
+}
+
+a{
+    text-decoration: none;
+    color: #FABD2F;
+}
+
+a:hover, a:active{
+    color: #c49de9;
+}
+
+.title{
+    font-family: WallNotes, monospace;
+    color: yellow;
+    text-shadow: 2px 2px 5px red;
+    font-size: 35pt;
+}
+.wvmd{
+    color: #b2ebc3;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.wvmd .email{
+    word-spacing: 30px;
+}
+
+.formarea{
+    background-color: #252525;
+    text-align: center;
+    padding: 2%;
+}
+
+hr{
+    color: #c4ebb2;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+}
+img {
+    max-width: 100%;
+}
+.text{
+    font-size: 15pt;
+    text-align: left;
+    width: fit-content;
+    display: block;
+    justify-content: space-around;
+    padding: 5%;
+}
+.main-image {
+    flex-basis: 40%
+}
+@media only screen and (max-width: 988px) {
+    .main-image{
+        display: none;
+    }
+    .text{
+        padding: 1%;
+        text-align: center;
+    }
+    .main-container{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .main{
+        padding: 2%;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .main{
+        padding: 0;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .main{
+        padding: 0;
+        margin: 0;
+    }
+}
