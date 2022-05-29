@@ -51,11 +51,12 @@ CREATE TABLE `todos` (
 
 The table should look like following:
 
-![Database_Structure_Defined](/.helper/database_structure.png)
+[![Database_Structure_Defined](.helper/database_structure.png)](.helper/preview.mp4)
 
 ### Keep in mind
 - image name is generated randomly and image name is saved in image column of users table in database.
 - real image is saved in [uploads](https://github.com/whoisYoges/ldo/tree/master/uploads/) directory.
 
 ### Project Overview Till Now (Way more to go)
-[![Overview](.helper/overview.png)](.helper/preview.mp4)
+
+https://user-images.githubusercontent.com/51807726/170848311-203eae03-f30d-4780-89e0-5d2cf9f6562a.mp4
